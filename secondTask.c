@@ -16,7 +16,7 @@ int even[10000], odd[10000];
 
 int main(int argc, char** argv)
 {
-		int sizeEven = 0, sizeOdd = 0, temp;
+    int sizeEven = 0, sizeOdd = 0, temp;
     scanf("%d", &temp);
     while (temp != 0)
     {
