@@ -63,5 +63,7 @@ int main(int argc, char** argv)
         }
     }
     printf("%lld\n", max);
+    free(arr);
+    free(dp);
     return 0;
 }
