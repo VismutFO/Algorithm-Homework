@@ -49,5 +49,6 @@ int main(int argc, char** argv)
         }
     }
     printf("%d\n", ans);
+    free(arr);
     return 0;
 }
