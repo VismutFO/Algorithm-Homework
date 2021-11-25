@@ -90,5 +90,8 @@ int main(int argc, char** argv)
         res %= mod;
     }
     printf("%lld\n", res);
+    free(F);
+    free(A);
+    free(An);
     return 0;
 }
