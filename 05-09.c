@@ -118,5 +118,6 @@ int main(int argc, char** argv)
         free(temp);
     }
     printf("%d\n", max - 1);
+    free(used);
     return 0;
 }
